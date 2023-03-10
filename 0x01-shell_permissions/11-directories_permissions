@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -recursive ag+rx,o+rwx ./*/
+chmod -recursive ug+rx,o+rwx ./*/
