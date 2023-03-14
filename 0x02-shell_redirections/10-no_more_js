@@ -1,2 +1,2 @@
 #!/bin/bash
-find *.js -depth -delete
+find {./,./*/}*.js -delete
