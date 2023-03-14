@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n iacta | grep 3 | head -n 1 | cut -b 8-
+cat -n iacta | grep 3 | head -n 1 | cut -b 1-
