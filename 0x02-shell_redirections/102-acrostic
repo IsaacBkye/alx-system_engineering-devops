@@ -1,0 +1,2 @@
+#!/bin/bas
+cut -b 1 | tr -d "\n"
