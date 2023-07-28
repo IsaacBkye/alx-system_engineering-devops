@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This is for Task 9
 
 FILE_="school"
 if [ -e "$FILE_" ]
