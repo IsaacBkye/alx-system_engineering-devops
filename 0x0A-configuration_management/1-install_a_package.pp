@@ -1,5 +1,7 @@
 # Using Puppet to install puppet-lint.
-package { 'puppet-lint':
-  ensure   => '2.1.1',
-  provider => 'gem'
+# create a manifest that kills a process
+
+exec { 'pkill':
+  command  => 'pkill killmenow',
+  provider => 'shell',
 }
